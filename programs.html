@@ -95,4 +95,26 @@ permalink: /programs/
             </dialog>
         </td>
     </tr>
+    <tr>
+        <td width="30%"><img alt="JPaint Logo" src="/assets/JPaintLogo.svg" width="100%"></td>
+        <td valign="top">
+            <h1>JPaint</h1>
+            <button onclick="document.getElementById('jPaintDownload').showModal()"><img alt="Download Icon" src="/assets/Download.svg"><br>Download</button>
+            <a href="https://github.com/Janorico/JPaint">
+                <button><img alt="Github Logo" src="/assets/github-mark.svg" width="64"><br>Repository</button>
+            </a>
+            <dialog id="jPaintDownload">
+                <p>Download JPaint</p>
+                <ul>
+                    <li><a href="https://github.com/Janorico/JPaint/releases/download/v1.0/JPaintSetup.exe">Windows Setup</a></li>
+                    <li><a href="https://github.com/Janorico/JPaint/releases/download/v1.0/JPaint.exe">Windows EXE</a></li>
+                    <li><a href="https://github.com/Janorico/JPaint/archive/refs/tags/v1.0.zip">Source code (zip)</a></li>
+                    <li><a href="https://github.com/Janorico/JPaint/archive/refs/tags/v1.0.tar.gz">Source code (tar.gz)</a></li>
+                </ul>
+                <p align="right">
+                    <button onclick="document.getElementById('jPaintDownload').close()">Close</button>
+                </p>
+            </dialog>
+        </td>
+    </tr>
 </table>
